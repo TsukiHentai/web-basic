@@ -1,0 +1,126 @@
+*{
+    font-family: 'Borel', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    display: inline-block;
+}
+.menu-logo{
+    display: inline-block;
+    float: right;
+    padding: 10px 10px;
+    
+}
+.menu-logo li{
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}
+.menu-logo li a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.menu-logo li a:hover{
+    color: aqua;
+}
+.container{
+    margin: 0 auto;
+    width: 1200px;
+    /* background: rebeccapurple; */
+}
+.header{
+    margin-bottom: 30px;
+}
+#btn-signup{
+    background: aqua;
+    color: white;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#btn-signup:hover{
+    background: blue;
+    color: yellow;
+}
+#block-slider{
+    position: relative;
+}
+#block-content-slider{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.right-body1,.left-body1{
+    display: inline-block;
+}
+.right-body1{
+    vertical-align: top;
+    color: white;
+    width: 600px;
+    margin-left: 20px;
+}
+.right-body1 h2{
+    font-size: 30px;
+}
+.right-body1 p{
+    font-size: 24px;
+}
+.btn-start{
+    width: auto;
+}
+#btn-start{
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#btn-contact{
+    text-decoration: none;
+    color: aqua;
+    background: white;
+    padding: 10px 40px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.feature-center{
+    text-align: center;
+}
+#feature-center-h3{
+    font-size: 30px;
+    padding-top: 30px;
+}
+#feature-center-p{
+    width: 50%;
+    margin: 0 auto;
+    color: #d6cdcd;
+    padding-bottom: 30px;
+}
+
+.feature-head{
+    padding: 0;
+}
+.feature-content{
+    width: 18%;
+    display: inline-block;
+    border: 1px solid #e4d1d1;
+    padding: 20px;
+    margin: 18px;
+}
+#nah{
+    font-size: 30px;
+    color: aqua;
+}
+.feature-content-h3{
+    font-size: 24px;
+}
+.feature-content p{
+    color: #d6cdcd;
+}
